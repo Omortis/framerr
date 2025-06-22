@@ -24,9 +24,9 @@ export default function KVData({ loaderData }: Route.ComponentProps) {
 
   return (
     <>
-      <h2>KV Text</h2>
+      <h1>KV Data</h1>
       <div>
-        <p>{message}</p>
+        <p className="text-viewer">{message}</p>
       </div>
     </>
   )
