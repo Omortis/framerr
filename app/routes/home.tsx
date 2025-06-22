@@ -23,7 +23,9 @@ export default function KVData({ loaderData }: Route.ComponentProps) {
         <li>
           <NavLink to="r2_text">R2 Text</NavLink>
         </li>
-      </ul>
+        <li>
+          <NavLink to="r2_image">R2 Image</NavLink>
+        </li>      </ul>
       <br /><br />
       <Outlet />
     </>
