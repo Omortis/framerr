@@ -13,3 +13,12 @@ body {
     color-scheme: dark;
   }
 }
+
+h1 {
+  color: darkblue;
+}
+
+.text-viewer {
+  background-color: #2597e610;
+  border: darkgrey solid 1px;
+}

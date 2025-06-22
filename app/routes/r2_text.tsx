@@ -25,9 +25,9 @@ export default function R2Text({ loaderData }: Route.ComponentProps) {
 
   return (
     <>
-      <h2>R2 Text File</h2>
+      <h1>R2 Text File</h1>
       <div>
-        <p>{r2Text}</p>
+        <p className="text-viewer">{r2Text}</p>
       </div>
     </>
   )
